@@ -1,0 +1,159 @@
+body {
+  background-color: #f6f6f6;
+  color: #06623b;
+  font-family: 'Merriweather Sans', sans-serif;
+  line-height: 2;
+  text-align: center;
+}
+
+h1 {
+  color: #679b9b;
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+  /*16px=100%=1em/rem(!inherit;use rem)*/
+}
+
+h2 {
+  color: #12947f;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+}
+
+h3 {
+  color: #12947f;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.15rem;
+}
+
+.chef {
+  font-weight: bolder;
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+}
+
+table {
+  border-spacing: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.restaurant-name {
+  font-weight: bolder;
+}
+
+img {
+  opacity: 0.75;
+}
+
+.profileimage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 60px auto 60px auto;
+  text-align: left;
+}
+
+.experiences {
+  margin-top: 100px;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  float: left;
+  margin-right: 30px;
+}
+
+.image:hover {
+  opacity: 1;
+}
+
+.fermenting {
+  height: 200px;
+}
+
+.top-container {
+  background-color: #bad7df;
+  margin: 0;
+  padding: 80px 0 50px 0;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 160px;
+  top: 60px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 100px;
+  left: 200px;
+}
+
+.middle-container {
+  padding-top: 50px;
+  margin: 40px 0;
+}
+
+.footer-link {
+  color: #12947f;
+  margin: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f17808;
+}
+
+hr {
+  border: dotted #bad7df 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 40px auto;
+}
+
+.bottom-container {
+  background-color: #bad7df;
+  padding: 20px 0;
+}
+
+.button {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:5px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 12px;
+}
